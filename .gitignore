@@ -1,0 +1,35 @@
+#Paket dependency manager
+.paket/
+paket-files/
+packages
+
+# Created by https://www.gitignore.io/api/visualstudiocode,fsharp
+# Edit at https://www.gitignore.io/?templates=visualstudiocode,fsharp
+
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+/build/
+*.exe
+!.paket/paket.bootstrapper.exe
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/visualstudiocode,fsharp
+
+### IonIDE
+.ionide
